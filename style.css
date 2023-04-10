@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.container2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.first label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+.first select {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .second select {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .third select {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .second label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  .third label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  .first input[type="text"] {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .second input[type="text"] {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .third input[type="text"] {
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 40px;
+  }
+  .center{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+  }
+  a{
+    color: white;
+    background-color: black ;
+    padding: 10px 15px;
+    
+  }
+  a:hover{
+    cursor: pointer;
+  }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="title">Travel Form</h2>
+    <form>
+        <container class="container">
+            <first class="first">
+                <label for="designation">Designation</label>
+                <select id="designation" name="designation">
+                    <option value="support-function">Support Function</option>
+                    <option value="sr-manager-sdl">Sr. Manager SDL</option>
+                    <option value="avp-and-above">AVP and Above</option>
+                </select>
+                <label for="travel-mode">Travel Mode</label>
+			<select id="travel-mode" name="travel-mode">
+			  <option value="bus">Bus</option>
+			  <option value="train">Train</option>
+			  <option value="cab">Cab</option>
+			  <option value="air">Air</option>
+			</select>
+            <label for="accommodation">Accommodation Required</label>
+			<select id="accommodation" name="accommodation">
+			  <option value="yes">Yes</option>
+			  <option value="no">No</option>
+			</select>
+            </first>
+            <second class="second">
+                <label for="travel-type">Travel Type</label>
+                <select id="travel-type" name="travel-type">
+                    <option value="one-way">One Way</option>
+                    <option value="round-trip">Round Trip</option>
+                </select>
+                <label for="airport-transfer">Airport/Station Transfer Required</label>
+			<select id="airport-transfer" name="airport-transfer">
+			  <option value="yes">Yes</option>
+			  <option value="no">No</option>
+			</select>
+            </second>
+            <third class="third">
+                <label for="travel-circle">Travel Circle</label>
+                <select id="travel-circle" name="travel-circle">
+                    <option value="international">International</option>
+                    <option value="intra-city">Intra City</option>
+                    <option value="inter-city">Inter City</option>
+                </select>
+                <label for="visa-assistance">Visa Assistance Required</label>
+			<select id="visa-assistance" name="visa-assistance">
+			  <option value="yes">Yes</option>
+			  <option value="no">No</option>
+			</select>
+            </third>
+        </container>
+        <container2 class="container2">
+            <first class="first">
+                <label for="name">Name</label>
+			<input type="text" id="name" name="name">
+            <label for="process-name">Process Name</label>
+			<input type="text" id="process-name" name="process-name">
+	  
+			<label for="govt-id-name">Name as Per Govt ID Proof</label>
+			<input type="text" id="govt-id-name" name="govt-id-name">
+            <label for="start-date">Start Date:</label>
+  <input type="text" id="start-date" name="start-date">
+            </first>
+            <second class="second">
+                <label for="emp-id">Emp ID</label>
+			<input type="text" id="emp-id" name="emp-id">
+            <label for="passport-no">Passport No</label>
+			<input type="text" id="passport-no" name="passport-no">
+            <label for="travelling-from">Travelling From:</label>
+  				<input type="text" id="travelling-from" name="travelling-from">
+                  <label for="end-date">End Date:</label>
+                  <input type="text" id="end-date" name="end-date">
+            </second>
+            <third class="third">
+                <label for="rm">Relationship Manager</label>
+			<input type="text" id="rm" name="rm">
+            <label for="travelling-to">Travelling To:</label>
+	        <input type="text" id="travelling-to" name="travelling-to">
+            </third>
+        </container2>
+        <container2 class="container2">
+            <first class="first">
+                <label for="accommodation">Accommodation:</label>
+	<input type="text" id="accommodation" name="accommodation" >
+</first>
+	<second class="second">
+	<label for="reimbursements">Reimbursements:</label>
+	<input type="text" id="reimbursements" name="reimbursements" >
+            </second>
+            <third class="third">
+	<label for="cab-or-self">Cab or Self:</label>
+	<input type="text" id="cab-or-self" name="cab-or-self" >
+</third>
+            
+        </container2>
+        <buttons class="center">
+            <a class="button" href="#">Submit</a>
+        </buttons>
+    </form>
+</body>
+
+</html>
