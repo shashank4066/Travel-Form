@@ -2,12 +2,26 @@
     padding: 0;
     margin: 0;
 }
+body{
+  background-image: url('back2.jpg');
+  background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+  opacity: 0.8;
+}
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 32px;
+    text-decoration: underline ;
+    opacity: 1;
+    text-shadow: 1px 1px 1px #ccc;  
 }
 .container{
     margin-top: 30px;
@@ -29,6 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    /* align-self: flex-start; */
 }
 .third{
     display: flex;
@@ -125,6 +140,7 @@
     color: white;
     background-color: black ;
     padding: 10px 15px;
+    text-decoration: none;
     
   }
   a:hover{
