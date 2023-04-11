@@ -147,3 +147,21 @@ body{
   a:hover{
     cursor: pointer;
   }
+  .first input[type="date"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    }
+    .second input[type="date"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    }
